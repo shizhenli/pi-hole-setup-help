@@ -2,7 +2,9 @@ baseURL = "https://pi-hole-setup-help.pages.dev/"
 languageCode = "en-us"
 title = "Pi-hole Single-Device DNS Help"
 enableRobotsTXT = true
+disableKinds = ["taxonomy", "term"]
 [params]
+template_version = "v1.1.0"
 description = "Deploy Pi-hole for one test device, verify a blocked domain and normal browsing, then restore the device DNS."
 category = "HomeLab"
 source = "pi-hole-setup-help"
