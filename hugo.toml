@@ -1,7 +1,7 @@
 baseURL = "https://pi-hole-setup-help.pages.dev/"
 languageCode = "en-us"
 title = "Pi-hole Setup Help"
-enableRobotsTXT = true
+enableRobotsTXT = false
 disableKinds = ["taxonomy", "term"]
 [params]
 source = "pi-hole-setup-help"
