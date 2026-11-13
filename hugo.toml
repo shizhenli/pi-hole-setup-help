@@ -1,13 +1,33 @@
 baseURL = "https://pi-hole-setup-help.pages.dev/"
 languageCode = "en-us"
-title = "Pi-hole Single-Device DNS Help"
+title = "Pi-hole Setup Help"
 enableRobotsTXT = true
 disableKinds = ["taxonomy", "term"]
 [params]
-template_version = "v1.1.0"
-description = "Deploy Pi-hole for one test device, verify a blocked domain and normal browsing, then restore the device DNS."
-category = "HomeLab"
 source = "pi-hole-setup-help"
+description = "Remote Pi-hole help for DNS filtering, broken browsing, one-device testing, and clean DNS rollback."
 email = "hello@handytasklab.com"
+fallback_email_subject = "Pi-hole setup help"
+fallback_email_fields = ["Pi-hole host and version", "Test device and OS", "Original DNS setting", "Blocked or broken example"]
+og_image = "images/social.jpg"
+footer_line = "Remote help for one device at a time."
+latest_kicker = "FROM THE BLOG"
+latest_title = "Pi-hole Setup Help Guides"
+theme_bg = "#23282F"
+theme_surface = "#F0F0F0"
+theme_card = "#FFFFFF"
+theme_ink = "#182018"
+theme_muted = "#5D655F"
+theme_accent = "#F38FA5"
+theme_accent_ink = "#FFFFFF"
+theme_deep = "#1B1F25"
+theme_deep_ink = "#FFFFFF"
+theme_header_ink = "#FFFFFF"
+theme_line = "#CDCFCD"
+theme_link = "#F49CB0"
+theme_scrim = "rgba(8,12,16,0.86)"
+theme_light = false
+hero_desktop_hd_width = 1920
+hero_mobile_hd_width = 768
 [markup.goldmark.renderer]
 unsafe = true
