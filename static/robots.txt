@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://pi-hole-setup-help.pages.dev/sitemap.xml
+
+Sitemap: https://pi-hole.handytasklab.com/sitemap.xml
